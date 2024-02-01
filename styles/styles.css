@@ -1,0 +1,115 @@
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	background-position: center;
+	background-size: auto cover;
+	max-width: 100vw;
+	max-height: 100vh;
+	min-width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+main {
+	background-color: rgba(0, 0, 0, 0.21);
+	background-image: url('./../img/Francesca-Maurino_03-4-scaled.jpeg');
+	background-position: center;
+	max-width: 100vw;
+	max-height: 100vh;
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.flex-v-space-b {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: red;
+}
+
+.flex-h-space-b {
+	display: flex;
+	justify-content: space-between;
+}
+
+.black-filter {
+	background-color: rgba(0, 0, 0, 0.21);
+	position: absolute;
+	max-width: 100vw;
+	max-height: 100vh;
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
+.page-sect {
+	padding: 20px;
+}
+
+.top-menu {
+	width: 100vw;
+	height: 25px;
+	background-color: rgba(0, 0, 0, 0.36);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+}
+
+.line-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-width: 30%;
+	list-style-type: none;
+	font-size: 20px;
+}
+
+.line-menu > li > a {
+	color: white;
+	font-size: 20px;
+}
+
+.curent-tab {
+	border-bottom: 3px solid orange;
+	color: red;
+}
+
+/* middle part */
+.middle-part {
+	max-width: 30%;
+	padding: 10px;
+	font-size: 18px;
+	color: white;
+	background-color: rgba(27, 27, 27, 0.55);
+}
+
+.middle-part > span {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/* Bottom part */
+.bottom-menu {
+	background-color: rgba(0, 0, 0, 0.36);
+	display: flex;
+	justify-content: space-around;
+}
+
+.francisca-cont {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
